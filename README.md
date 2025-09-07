@@ -1,8 +1,4 @@
-Always show details
-import pypandoc
-
-# Short, non-technical README text
-readme_text = """# LDP Coach Matcher
+# LDP Coach Matcher
 
 **Live app:** [ldpcoachmatch-v2.streamlit.app](https://ldpcoachmatch-v2.streamlit.app/)  
 
