@@ -8,3 +8,4 @@ python-docx
 pulp
 openai
 openpyxl
+xlsxwriter
