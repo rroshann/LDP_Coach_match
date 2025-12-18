@@ -7,5 +7,6 @@ pypdf
 python-docx
 pulp
 openai
+google-generativeai
 openpyxl
 xlsxwriter
