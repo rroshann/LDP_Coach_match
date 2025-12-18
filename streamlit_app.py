@@ -280,7 +280,7 @@ Respond with ONLY valid JSON, no explanation or markdown."""
                 {"role": "system", "content": "You extract structured features from coach bios. Always respond with valid JSON only."},
                 {"role": "user", "content": prompt}
             ],
-            temperature=0.1,
+            temperature=0.0,  # Deterministic for consistent results
             max_tokens=500,
         )
         
@@ -367,7 +367,7 @@ Respond with ONLY valid JSON, no explanation or markdown."""
                 {"role": "system", "content": "You extract structured features from student profiles. Always respond with valid JSON only."},
                 {"role": "user", "content": prompt}
             ],
-            temperature=0.1,
+            temperature=0.0,  # Deterministic for consistent results
             max_tokens=500,
         )
         
